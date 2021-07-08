@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<payment>
+			<slotpaystack>
+				<active>1</active>
+				<model>Slot\Payment\Model\Payment\Slotpaystack</model>
+				<order_status>pending_paystarck</order_status>
+				<title>Paystack</title>
+				<allowspecific>0</allowspecific>
+				<group>offline</group>
+			</slotpaystack>
+		</payment>
+	</default>
+</config>
